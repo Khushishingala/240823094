@@ -17,7 +17,8 @@ fs.writeFile("test.txt","mca",function(err){
 
 });
 
-fs.readFile("test.txt","utf-8",function(err,data)
+fs.readF
+ile("test.txt","utf-8",function(err,data)
 {
     if(err)throw err;
     console.log("file content:",data);
