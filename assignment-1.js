@@ -25,7 +25,7 @@
 // let year = 2020; 
 
 
-<<<<<<< HEAD
+
 // if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) 
 // {
 //     console.log(year + " is a Leap Year.");
@@ -33,14 +33,15 @@
 //     console.log(year + " is not a Leap Year.");
 // }
 
-=======
-if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) 
-{
-    console.log(year + " is a Leap Year.");
-} else {
-    console.log(year + " is not a Leap Year.");
-}
->>>>>>> 1b3255d4404601ab0b68d6436732c2f4b0166c36
+
+// if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) 
+// {
+//     console.log(year + " is a Leap Year.");
+// } else {
+//     console.log(year + " is not a Leap Year.");
+// }
+
+    
 // 4. Sum of Natural Numbers
 // let n = 10;
 // let sum = 0;
