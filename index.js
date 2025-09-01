@@ -1,5 +1,11 @@
-console.log("hello")
-const name="khushi"
-console.log(`hello ${name}`)
-console.log("khuc")
-console.log("atmiya uni")
+const express=require("express");
+const studentRoute=require("./routes/studentRoute");
+const app=express();
+const PORT=80;
+app.use(express.json());
+
+app.use("/student",studentRoute);
+
+app.listen(PORT,()=>{
+    console.log(`server is running at http://localhost:${PORT}/`);
+});
